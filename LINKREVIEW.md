@@ -15,9 +15,9 @@
 | SOTA review |  Устойчивая сходимость поверхности функции потерь через усреднение по распределению | 2025 | Meshkov V., Kiselev N., Grabovoy A. |  | [Github](https://github.com/kisnikser) | Idea of Monte Carlo sampling for convergence evaluation |
 | SOTA review |  Neural Networks Loss Landscape Convergence in Different Low-Dimensional Spaces | 2025 | Kiselev N., Nikitin A. |  | [Github](https://github.com/intsystems/2025-Project-183) | Идея перехода к подпространству главных собственных векторов матрицы Гессе |
 | Methods |  Robust Convergence of Loss Landscapes through Distributional Averaging | 2025 | Meshkov V., Kiselev N., Grabovoy A. |  | [Github](https://github.com/kisnikser/robust-loss-landscape-convergence) | Базовая работа с распределенным подходом к оценке сходимости оптимизационной поверхности |
-| Dataset |  MNIST | 2026 |  |  | [Link](https://docs.pytorch.org/vision/0.20/generated/torchvision.datasets.MNIST.html#torchvision.datasets.MNIST) | Датасет для вычислительного эксперимента на задаче классификации изображений  |
-| Dataset |  FashionMNIST | 2026 |  | | [Link](https://docs.pytorch.org/vision/0.20/generated/torchvision.datasets.FashionMNIST.html#torchvision.datasets.FashionMNIST) | Датасет для вычислительного эксперимента на задаче классификации изображений  |
-| Dataset |  CIFAR10 | 2025 |  |  | [Link](https://docs.pytorch.org/vision/0.20/generated/torchvision.datasets.CIFAR10.html#torchvision.datasets.CIFAR10) | Датасет для вычислительного эксперимента на задаче классификации изображений  |
-
+| Dataset |  MNIST | 2012 | L. Deng |  | [Link](https://docs.pytorch.org/vision/0.20/generated/torchvision.datasets.MNIST.html#torchvision.datasets.MNIST) | Датасет для вычислительного эксперимента на задаче классификации изображений  |
+| Dataset |  FashionMNIST | 2012 | H. Xiao, K. Rasul, and R. Vollgraf | | [Link](https://docs.pytorch.org/vision/0.20/generated/torchvision.datasets.FashionMNIST.html#torchvision.datasets.FashionMNIST) | Датасет для вычислительного эксперимента на задаче классификации изображений  |
+| Dataset |  CIFAR10 | 2009 |  |  | [Link](https://docs.pytorch.org/vision/0.20/generated/torchvision.datasets.CIFAR10.html#torchvision.datasets.CIFAR10) | Датасет для вычислительного эксперимента на задаче классификации изображений  |
+| Methods |  Visualizing the Loss Landscape of Neural Nets | 2018 | Hao Li, Zheng Xu, Gavin Taylor, Christoph Studer, Tom Goldstein | [Paper](https://arxiv.org/pdf/1712.09913) | | Methods of visualizing loss function  |
 
 
