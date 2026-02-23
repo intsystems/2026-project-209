@@ -9,15 +9,15 @@
 <table>
     <tr>
         <td align="left"> <b> Author </b> </td>
-        <td> Name Surname </td>
+        <td> Enikeev Arnold </td>
     </tr>
     <tr>
         <td align="left"> <b> Consultant </b> </td>
-        <td> Name Surname, PhD/DSc </td>
+        <td> Nikita Kiselev, PhD/DSc </td>
     </tr>
     <tr>
         <td align="left"> <b> Advisor </b> </td>
-        <td> Name Surname, PhD/DSc </td>
+        <td> Andrey Grabovoy, PhD/DSc </td>
     </tr>
 </table>
 
@@ -38,7 +38,7 @@ If you find our work helpful, please cite us.
 ```BibTeX
 @article{citekey,
     title={Title},
-    author={Name Surname, Name Surname (consultant), Name Surname (advisor)},
+    author={Enikeev Arnold, Nikita Kiselev (consultant), Andrey Grabovoy (advisor)},
     year={2025}
 }
 ```
