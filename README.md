@@ -25,8 +25,8 @@
 
 - [LinkReview](LINKREVIEW.md)
 - [Code](code)
-- [Paper](paper/main.pdf)
-- [Slides](slides/main.pdf)
+- [Paper](paper/2026_project_209-final_paper.pdf)
+- [Slides](slides/m1p_1_slide_talk.pdf)
 
 ## Abstract
 
