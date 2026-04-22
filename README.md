@@ -13,11 +13,11 @@
     </tr>
     <tr>
         <td align="left"> <b> Consultant </b> </td>
-        <td> Nikita Kiselev, PhD/DSc </td>
+        <td> Nikita Kiselev</td>
     </tr>
     <tr>
         <td align="left"> <b> Advisor </b> </td>
-        <td> Andrey Grabovoy, PhD/DSc </td>
+        <td> Andrey Grabovoy </td>
     </tr>
 </table>
 
