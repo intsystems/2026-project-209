@@ -30,14 +30,26 @@
 
 ## Abstract
 
-Исследование поведения функции потерь возле минимума является важной задачей для работы нейросетей и для поиска оптимального размера обучающей выборки. <br>
-Распределенный подход к оценке сходимости поверхности функции потерь использует Monte Carlo сэмплирование из гауссовского распределения в окрестности минимума. <br>
-Предыдущие исследования показали, что оценка сильно зависит от дисперсии сэмплирования. <br>
-Целью исследования является разработка адаптивных методов выбора параметров распределения сэмплирования на основе свойств кривизны оптимизационной поверхности и провести сравнительный анализ различных стратегий выбора. <br>
-В данной работе предлагается метод, использующий свойства матрицы Гессе для более точной оценки сходимости поверхности функции потерь. <br>
-Различные стратегии выбора сравниваются на задаче классификации изображений. <br>
-Развитие исследований в этом направлении позволит сделать распределенный подход более практичным и устойчивым. <br>
-Результаты могут быть полезны для анализа оптимальной обучающей выборки в задаче обучения нейросетей. <br>
+Understanding the local behavior of the loss function near a minimum is important
+both for analyzing neural loss landscapes and for studying how the geometry
+of the optimization surface changes with the training set size. Recent Monte Carlo
+approaches to loss-landscape convergence rely on Gaussian sampling around a local
+minimum, but their performance is highly sensitive to the choice of the sampling scale.
+In particular, if the sampling variance is too large, sampled points leave the neighborhood
+where the loss is well approximated by its second-order Taylor expansion; if
+it is too small, the sampling becomes overly conservative. In this work, we propose
+an adaptive rule for selecting the Gaussian sampling scale based on local curvature
+information. Using the Hessian at a minimum and a local regularity condition on
+the loss landscape, we derive an explicit estimate of the radius of the local quadratic
+regime and obtain a closed-form expression for the largest admissible sampling scale
+that stays inside this region with prescribed probability. We further validate the
+proposed rule experimentally on image classification with ResNet-18 on CIFAR-10.
+The results show that the selected scale is well aligned with the region where the
+quadratic approximation remains accurate and that the admissible scale decreases
+as the dimension of the dominant-curvature subspace increases. Overall, the proposed
+method provides a practical geometry-aware calibration of Gaussian sampling
+for local loss-landscape analysis and for Monte Carlo estimation of loss-landscape
+convergence.
 
 
 
@@ -46,9 +58,10 @@
 If you find our work helpful, please cite us.
 ```BibTeX
 @article{citekey,
-    title={Title},
+    title={Adaptive Selection of the Gaussian Sampling Scale for
+Monte Carlo Estimation of Loss-Landscape},
     author={Enikeev Arnold, Nikita Kiselev (consultant), Andrey Grabovoy (advisor)},
-    year={2025}
+    year={2026}
 }
 ```
 
